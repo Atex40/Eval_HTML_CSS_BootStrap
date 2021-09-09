@@ -1,0 +1,42 @@
+#body {
+    background-color: #f1f2f2;
+}
+
+header {
+    background: #eddfdf;
+}
+
+header, 
+footer {
+    text-align: center;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+h3, 
+footer, 
+header {
+    font-style: italic;
+}
+
+nav {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.card {
+    margin-top: 15px;
+}
+
+.map-position {
+    background: white;
+}
+
+footer {
+    background-color: #28211e;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+}
