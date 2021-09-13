@@ -4,9 +4,10 @@
 
 header {
     background: #eddfdf;
+    margin-bottom: 15px;
 }
 
-header, 
+header,
 footer {
     text-align: center;
 }
@@ -30,13 +31,74 @@ nav {
     margin-top: 15px;
 }
 
-.map-position {
-    background: white;
+#block-one {
+    margin-top: 35px;
+    margin-bottom: 50px;
 }
+
+#block-onebis {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#block-two {
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+#informations {
+    padding: 10px;
+    border: 1px dashed gray;
+    text-align: center;
+}
+
 
 footer {
     background-color: #28211e;
     color: white;
     margin-top: 20px;
     padding: 10px;
+    font-size: 30px;
+}
+
+footer h4 {
+    text-decoration: underline;
+}
+
+footer a {
+    color: rgb(255, 255, 255);
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: tomato;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.video-container {
+    position: relative; 
+    padding-bottom: 56.25%; 
+    padding-top: 30px; 
+    height: 0; 
+    overflow: hidden;
+    border-radius: 5px;
+    border: black;
+}
+
+.video-container iframe {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%;
 }
