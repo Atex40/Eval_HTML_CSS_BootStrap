@@ -31,29 +31,6 @@ nav {
     margin-top: 15px;
 }
 
-#block-one {
-    margin-top: 35px;
-    margin-bottom: 50px;
-}
-
-#block-onebis {
-    padding: 20px;
-    background-color: white;
-    border-radius: 5px;
-}
-
-#block-two {
-    margin-top: 35px;
-    margin-bottom: 50px;
-}
-
-#informations {
-    padding: 10px;
-    border: 1px dashed gray;
-    text-align: center;
-}
-
-
 footer {
     background-color: #28211e;
     color: white;
@@ -73,16 +50,6 @@ footer a {
 
 footer a:hover {
     color: tomato;
-}
-
-ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-ul li {
-    display: inline-block;
-    padding-right: 10px;
 }
 
 .video-container {
