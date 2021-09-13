@@ -7,6 +7,12 @@ header {
     margin-bottom: 15px;
 }
 
+header ul li a:hover{
+    color: tomato !important;
+    text-decoration: underline !important;
+}
+
+
 header,
 footer {
     text-align: center;
